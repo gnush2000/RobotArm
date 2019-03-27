@@ -4,7 +4,7 @@ public class Servo {
     public static void main(String args[]) {
         try {
             Runtime runTime = Runtime.getRuntime();
-            runTime.exec("gpio mode 1 pwm");
+            runTime.exec("gpio -g mode 18 pwm");
             runTime.exec("gpio pwm-ms");
             runTime.exec("gpio pwmc 205");
             runTime.exec("gpio pwmr 2000");

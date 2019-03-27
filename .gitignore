@@ -5,13 +5,13 @@
 # Files for the ART/Dalvik VM
 *.dex
 
-# Java class files
-*.class
+# Java class files  - Included to avoid compiling on device.
+.class
 
-# Generated files
+# Generated files - Included out/ to avoid compiling on device.
 bin/
 gen/
-out/
+# out/
 
 # Gradle files
 .gradle/
